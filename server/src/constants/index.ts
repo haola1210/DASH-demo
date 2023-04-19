@@ -1,0 +1,3 @@
+export enum INJECTABLE_TOKEN {
+  TUS_SERVER = 'TUS_SERVER',
+}
