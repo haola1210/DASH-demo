@@ -17,3 +17,7 @@ template url:
 ```js
   domain/videos/[`video-peice-id`]/[`resolution`]
 ```
+
+## process:
+- upload the large file with TUS and temporary store in `uploads`
+- after finishing the uploading, we read the file then split it. after that we store pieces in `resources`
